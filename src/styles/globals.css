@@ -1,0 +1,102 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: #fafafa;
+}
+
+html {
+  font-size: 93.75%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #eeeeec;
+  --black: #181818;
+  --gray: #4e4e4e;
+  --light-gray: #b9b9b9;
+  --gray-gradient: linear-gradient(90deg, #868f96 0%, #596164 100%);
+  --black-gradient: linear-gradient(90deg, #434343 0%, #000000 100%);
+  --white-gradient: linear-gradient(90deg, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%);
+  --button-gradient: linear-gradient(180deg, #434343 0%, #000000 100%);
+}
+
+.brand-text {
+  color: var(--white);
+  font-family: 'Lexend Peta', sans-serif;
+  font-size: 0.875rem;
+}
+
+.heading-1 {
+  font-weight: 700;
+  line-height: 150%;
+  font-style: 2.441rem;
+  color: var(--black);
+}
+
+.heading-2 {
+  font-weight: 600;
+  line-height: 150%;
+  font-style: 1.953rem;
+  color: var(--black);
+}
+
+.heading-3 {
+  font-weight: 500;
+  line-height: 150%;
+  font-style: 1.563rem;
+  color: var(--black);
+}
+
+.normal-text {
+  font-weight: 400;
+  line-height: 180%;
+  font-style: 1.25rem;
+  color: var(--gray);
+}
+
+.small-text {
+  font-weight: 300;
+  line-height: 150%;
+  font-style: 1rem;
+  color: var(--gray);
+}
+
+.smaller-text {
+  font-weight: 300;
+  line-height: 150%;
+  font-style: 0.8rem;
+  color: var(--gray);
+}
+
+.button-text {
+  font-weight: 700;
+  line-height: 150%;
+  font-size: 1.125rem;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.white-button-text {
+  font-weight: 700;
+  line-height: 150%;
+  font-size: 1.125rem;
+  color: var(--black);
+  text-transform: uppercase;
+}
+
+@media (min-width: 800px) {
+  html {
+    font-size: 87.5%;
+  }
+}
