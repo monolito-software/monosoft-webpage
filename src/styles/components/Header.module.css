@@ -1,0 +1,66 @@
+.headerContainer {
+  width: 100vw;
+
+  padding: 1.25rem 1.875rem;
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brandContainer {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: space-between;
+
+  background: var(--black);
+
+  padding: 1.2rem 1.3rem;
+
+  border-radius: 5rem;
+
+  cursor: pointer;
+}
+
+.brandContainer img {
+  width: 1.125rem;
+}
+
+.linksContainer {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+
+.linksContainer a {
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 150%;
+
+  color: var(--black);
+}
+
+.linksContainer a + a {
+  margin-left: 1.875rem;
+}
+
+.contactButton {
+  padding: 0.688rem 1.938rem;
+  background: var(--black);
+  border-radius: 3.125rem;
+}
+
+#contact {
+  font-size: 0.8rem;
+}
+
+.separator {
+  background: #EAEAEA;
+  width: 100vw;
+  height: 0.063rem;
+}
