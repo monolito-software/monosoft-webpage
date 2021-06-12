@@ -10,12 +10,12 @@ const Header = () => {
             alt="Ilustração de um Monolito como logomarca."
           />
         </div>
-        <div className={styles.linksContainer}>
+        <nav className={styles.linksContainer}>
           <a href="#intro">Início</a>
           <a href="#services">Serviços</a>
           <a href="#products">Produtos</a>
           <a href="#techs">Tecnologias</a>
-        </div>
+        </nav>
         <a
           href="mailto:contato@monosoft.com.br"
           className={styles.contactButton}
