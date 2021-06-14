@@ -2,6 +2,9 @@ import Head from 'next/head';
 
 import Header from '../components/Header';
 import Intro from '../components/Intro';
+import Services from '../components/Services';
+import Products from '../components/Products';
+import Footer from '../components/Footer';
 
 import styles from '../styles/Home.module.css';
 
@@ -23,7 +26,12 @@ export default function Home() {
       </header>
       <main>
         <Intro />
+        <Services />
+        {/* <Products /> */}
       </main>
+      {/* <footer>
+        <Footer />
+      </footer> */}
     </div>
   );
 }

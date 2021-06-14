@@ -1,0 +1,42 @@
+[
+  {
+    "title":"Lorem ipsum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate.",
+    "iconSrc": "/icons/services/laptop-code.svg"
+  },
+  {
+    "title":"Lorem ipsum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate.",
+    "iconSrc": "/icons/services/laptop-code.svg"
+  },
+  {
+    "title":"Lorem ipsum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate.",
+    "iconSrc": "/icons/services/laptop-code.svg"
+  },
+  {
+    "title":"Lorem ipsum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate.",
+    "iconSrc": "/icons/services/laptop-code.svg"
+  },
+  {
+    "title":"Lorem ipsum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate.",
+    "iconSrc": "/icons/services/laptop-code.svg"
+  },
+  {
+    "title":"Lorem ipsum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate.",
+    "iconSrc": "/icons/services/laptop-code.svg"
+  },
+  {
+    "title":"Lorem ipsum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate.",
+    "iconSrc": "/icons/services/laptop-code.svg"
+  },
+  {
+    "title":"Lorem ipsum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate.",
+    "iconSrc": "/icons/services/laptop-code.svg"
+  }
+]

@@ -10,13 +10,8 @@
   height: 21.875rem;
 }
 
-.introTextContainer h1 {
-  font-size: 2.441rem;
-}
-
 .introTextContainer p {
   margin-top: 1.875rem;
-  font-size: 1.25rem;
 }
 
 .socialMediaButtons {
@@ -37,10 +32,15 @@
   justify-content: space-between;
 
   border-radius: 50%;
+  transition: ease-in-out 0.2s;
 }
 
 .socialMediaButtons a+a {
   margin-left: 1.875rem;
+}
+
+.socialMediaButtons a:hover {
+  transform: scale(1.05);
 }
 
 #whatsappButton {
@@ -51,3 +51,11 @@
   margin-left: 1.25rem;
 }
 
+.illustration img{
+  width: 37.5rem;
+  transition: ease-in-out 0.2s;
+}
+
+.illustration img:hover {
+  transform: scale(1.03);
+}

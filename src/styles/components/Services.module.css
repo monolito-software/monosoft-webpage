@@ -1,0 +1,31 @@
+#description {
+  max-width: 38.313rem;
+}
+
+.servicesContainer {
+  margin-top: 18rem;
+}
+
+.servicesContainer h1 {
+  color: var(--white);
+}
+
+.servicesContainer p {
+  color: var(--light-gray);
+}
+
+.servicesCardsContainer {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  gap: 3.125rem;
+}
+
+.servicesCardsContainer h1 {
+  color: var(--black);
+}
+
+.servicesCardsContainer p {
+  color: var(--gray);
+}
+

@@ -1,0 +1,7 @@
+.productsContainer h1 {
+  color: var(--white);
+}
+
+.productsContainer p {
+  color: var(--light-gray);
+}

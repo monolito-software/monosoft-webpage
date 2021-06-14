@@ -6,8 +6,8 @@ const Intro = () => {
     'Olá, me chamo ... e gostaria de saber mais sobre os serviços oferecidos da Monosoft para ... .';
 
   return (
-    <div className={styles.intro}>
-      <section className={styles.introTextContainer}>
+    <section id="intro" className={styles.intro}>
+      <div className={styles.introTextContainer}>
         <h1 className="heading-1">Modernize agora mesmo seu negócio!</h1>
         <p className="normal-text">
           Desenvolvemos soluções modernas para o sua empresa, diga-nos seu
@@ -31,14 +31,14 @@ const Intro = () => {
             <span className="button-text">Fale conosco</span>
           </a>
         </div>
-      </section>
-      <section className={styles.illustration}>
+      </div>
+      <div className={styles.illustration}>
         <img
           src="/images/illustration.svg"
           alt="Ilustração de aparelhos eletrônicos"
         />
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 

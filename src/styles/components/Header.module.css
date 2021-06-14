@@ -1,5 +1,5 @@
 .headerContainer {
-  width: 100vw;
+  width: 98vw;
 
   padding: 1.25rem 1.875rem;
 
@@ -24,6 +24,7 @@
   border-radius: 5rem;
 
   cursor: pointer;
+  transition: ease-in-out 0.2s;
 }
 
 .brandContainer img {
@@ -43,6 +44,15 @@
   line-height: 150%;
 
   color: var(--black);
+  transition: ease-in-out 0.2s;
+}
+
+.linksContainer a:hover {
+  opacity: 0.8;
+}
+
+.contactButton:hover, .brandContainer:hover  {
+  transform: scale(1.05);
 }
 
 .linksContainer a + a {
@@ -53,6 +63,7 @@
   padding: 0.688rem 1.938rem;
   background: var(--black);
   border-radius: 3.125rem;
+  transition: ease-in-out 0.2s;
 }
 
 #contact {
@@ -61,6 +72,5 @@
 
 .separator {
   background: #EAEAEA;
-  width: 100vw;
   height: 0.063rem;
 }
