@@ -18,6 +18,11 @@
   padding: 0.625rem 1.875rem;
   background: var(--white);
   border-radius: 3.125rem;
+  transition: ease-in-out 0.2s;
+}
+
+.contactButton:hover  {
+  transform: scale(1.05);
 }
 
 .contactButton span {
@@ -25,8 +30,8 @@
 }
 
 .footerContainer {
-  margin-top: 6.25rem;
-  margin-bottom: 6.25rem;
+  height: 9.75rem;
+  width: 100vw;
   display: flex;
   flex-direction: row;
   align-items: center;

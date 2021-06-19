@@ -1,0 +1,69 @@
+.carouselContainer {
+  margin-top: 5.313rem;
+  width: 67.5rem;
+  background: var(--white-gradient);
+  box-shadow: 3px 2px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 0.938rem;
+  padding: 3.563rem 3.125rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.carouselContainer h1 {
+  color: var(--black);
+}
+
+.carouselContainer p {
+  color: var(--gray);
+  margin-left: 2.5rem;
+  text-align: justify;
+  width:25rem;
+}
+
+.carouselContainer a {
+  background: var(--black);
+  border-radius: 3.125rem;
+  margin-top: 1.563rem;
+  width: 10.625rem;
+  height: 3.375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 0.2s;
+}
+
+.carouselContainer a:hover {
+  transform: scale(1.05);
+}
+
+.carouselContainer a > span {
+  color: var(--white);
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 150%;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.content .about {
+  text-align: right;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.indicator {
+  border-radius: 50%;
+  width: 1.125rem;
+  height: 1.125rem;
+  background: var(--black);
+  margin-top: 1.875rem;
+}

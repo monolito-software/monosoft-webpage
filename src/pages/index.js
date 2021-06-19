@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import Intro from '../components/Intro';
 import Services from '../components/Services';
 import Products from '../components/Products';
+import ProductsCarousel from '../components/ProductsCarousel';
 import Footer from '../components/Footer';
 
 import styles from '../styles/Home.module.css';
@@ -27,11 +28,14 @@ export default function Home() {
       <main>
         <Intro />
         <Services />
-        {/* <Products /> */}
+        <Products />
+        <div className={styles.carousel}>
+          <ProductsCarousel />
+      </div>
       </main>
-      {/* <footer>
+      <footer>
         <Footer />
-      </footer> */}
+      </footer>
     </div>
   );
 }

@@ -5,3 +5,25 @@
 .productsContainer p {
   color: var(--light-gray);
 }
+
+#description {
+  max-width: 38.313rem;
+}
+
+.productsContainer {
+  margin-top: 18rem;
+}
+
+.productsContainer h1 {
+  color: var(--white);
+}
+
+.productsContainer p {
+  color: var(--light-gray);
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

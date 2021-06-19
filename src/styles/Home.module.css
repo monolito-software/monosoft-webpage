@@ -1,7 +1,13 @@
 .container {
-  padding: 0 0.5rem;
+  padding: 0 5rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
