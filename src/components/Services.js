@@ -13,9 +13,10 @@ const Services = () => {
         e garantia de manutenção de até 1 ano.
       </p>
       <div className={styles.servicesCardsContainer}>
-        {services.map((service) => {
+        {services.map((service, index) => {
           return (
             <ServiceCard
+              key={index}
               title={service.title}
               description={service.description}
               iconSrc={service.iconSrc}
