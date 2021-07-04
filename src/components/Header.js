@@ -14,7 +14,7 @@ const Header = () => {
           <a href="#intro">Início</a>
           <a href="#services">Serviços</a>
           <a href="#products">Produtos</a>
-          <a href="#techs">Tecnologias</a>
+          <a href="#team">Quem somos</a>
         </nav>
         <a
           href="mailto:contato@monosoft.com.br"
