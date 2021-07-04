@@ -1,0 +1,14 @@
+.team {
+  margin-top: 10rem;
+}
+
+.teammatesContainer {
+  display: grid;
+  gap: 0.438rem;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 3.125rem;
+}
+
+.team>p {
+  width: 31.125rem;
+}
