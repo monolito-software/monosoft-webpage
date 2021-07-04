@@ -5,6 +5,7 @@ import Intro from '../components/Intro';
 import Services from '../components/Services';
 import Products from '../components/Products';
 import ProductsCarousel from '../components/ProductsCarousel';
+import Team from '../components/Team';
 import Footer from '../components/Footer';
 
 import styles from '../styles/Home.module.css';
@@ -31,7 +32,8 @@ export default function Home() {
         <Products />
         <div className={styles.carousel}>
           <ProductsCarousel />
-      </div>
+        </div>
+        <Team />
       </main>
       <footer>
         <Footer />
