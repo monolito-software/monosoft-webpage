@@ -103,6 +103,10 @@ a {
   text-transform: uppercase;
 }
 
+#teammate-card-2, #teammate-card-4 {
+  margin-top: 7.5rem;
+}
+
 @media (min-width: 800px) {
   html {
     font-size: 87.5%;
