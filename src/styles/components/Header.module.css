@@ -1,7 +1,7 @@
 .headerContainer {
-  width: 98vw;
+  width: 85.375rem;
 
-  padding: 1.25rem 1.875rem;
+  padding: 1.25rem 0;
 
   display: flex;
   flex-direction: row;
@@ -70,7 +70,15 @@
   font-size: 0.8rem;
 }
 
-.separator {
-  background: #EAEAEA;
-  height: 0.075rem;
+
+@media (max-width: 1300px) {
+  .headerContainer {
+    width: 56.25rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .headerContainer {
+    width: 42.5rem;
+  }
 }
