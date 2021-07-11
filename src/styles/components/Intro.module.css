@@ -1,8 +1,10 @@
 .intro {
+  width: 85.375rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-top: 5rem;
 }
 
 .introTextContainer {
@@ -58,4 +60,11 @@
 
 .illustration img:hover {
   transform: scale(1.03);
+}
+
+
+@media (max-width: 1300px) {
+  .intro {
+    flex-direction: column-reverse;
+  }
 }
