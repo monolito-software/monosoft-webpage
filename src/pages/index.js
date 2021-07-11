@@ -8,29 +8,28 @@ import ProductsCarousel from '../components/ProductsCarousel';
 import Team from '../components/Team';
 import Footer from '../components/Footer';
 
-import styles from '../styles/Home.module.css';
-
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className='container'>
       <Head>
         <meta
-          name="description"
-          content="Empresa especializada em soluções tecnológicas de baixos curso e alta qualidade para o seu negócio."
+          name='description'
+          content='Empresa especializada em soluções tecnológicas de baixos curso e alta qualidade para o seu negócio.'
         />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
         <title>Monosoft</title>
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
       </Head>
       <header>
         <Header />
       </header>
+      <div className='separator' />
       <main>
         <Intro />
         <Services />
         <Products />
-        <div className={styles.carousel}>
+        <div className='carousel'>
           <ProductsCarousel />
         </div>
         <Team />
