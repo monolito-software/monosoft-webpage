@@ -10,13 +10,13 @@ body {
 
 html {
   font-size: 93.75%;
-
 }
 
-body {
-  background-image: url("/images/background.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
+body, main, .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 a {
@@ -107,8 +107,26 @@ a {
   margin-top: 7.5rem;
 }
 
+.separator {
+  background: #EAEAEA;
+  height: 0.075rem;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 @media (min-width: 800px) {
   html {
     font-size: 87.5%;
+  }
+}
+
+@media (max-width: 1300px) {
+  #teammate-card-2, #teammate-card-4 {
+    margin-top: 0;
   }
 }
