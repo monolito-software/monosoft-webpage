@@ -7,8 +7,34 @@
   gap: 0.438rem;
   grid-template-columns: repeat(5, 1fr);
   margin-top: 3.125rem;
+  width: 85.375rem;
 }
 
 .team>p {
   width: 31.125rem;
+}
+
+@media (max-width: 1300px) {
+  .team {
+    width: 56.25rem;
+  }
+
+  .teammatesContainer {
+    width: 56.25rem;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+  }
+}
+
+@media (max-width: 850px) {
+  .team {
+    width: 42.5rem;
+  }
+
+  .teammatesContainer {
+    width: 42.5rem;
+    grid-template-columns: repeat(2, 3fr);
+    place-items: center;
+  }
 }
