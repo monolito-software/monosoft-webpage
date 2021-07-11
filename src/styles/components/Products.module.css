@@ -10,8 +10,19 @@
   max-width: 38.313rem;
 }
 
+.sectionBackground {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 45rem;
+  width: 100vw;
+  background: var(--black-gradient);
+  margin-top: -5rem;
+}
+
 .productsContainer {
-  margin-top: 18rem;
+  width: 85.375rem;
 }
 
 .productsContainer h1 {
@@ -26,4 +37,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 1300px) {
+  .productsContainer {
+    width: 56.25rem;
+    margin-top: 15rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .productsContainer {
+    width: 42.5rem;
+    height: 110rem;
+  }
 }

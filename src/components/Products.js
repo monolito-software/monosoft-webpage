@@ -2,6 +2,7 @@ import styles from '../styles/components/Products.module.css';
 
 const Products = () => {
   return (
+    <div className={styles.sectionBackground}>
     <section id="products" className={styles.productsContainer}>
       <h1 className="heading-1">Nossos produtos.</h1>
       <p id={styles.description} className="normal-text">
@@ -9,6 +10,7 @@ const Products = () => {
         algum soluciona seus problemas?
       </p>
     </section>
+    </div>
   );
 };
 
