@@ -1,5 +1,5 @@
 .carouselContainer {
-  margin-top: 5.313rem;
+  margin-top: -10rem;
   width: 67.5rem;
   background: var(--white-gradient);
   box-shadow: 3px 2px 30px rgba(0, 0, 0, 0.2);
@@ -67,3 +67,34 @@
   background: var(--black);
   margin-top: 1.875rem;
 }
+
+@media (max-width: 1300px) {
+  .carouselContainer {
+    width: 56.25rem;
+  }
+
+  .carouselContainer img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 850px) {
+  .carouselContainer {
+    width: 38rem;
+    height: 45rem;
+  }
+
+  .carouselContainer img {
+    margin-top: 2rem;
+  }
+
+  .carouselContainer p {
+    font-size: 1rem;
+    margin-top: 2rem;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+}
+
