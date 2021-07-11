@@ -1,7 +1,3 @@
-.socialMedia {
-  margin-left: 6.25rem;
-}
-
 .socialMedia a+a {
   margin-left: 1.875rem;
 }
@@ -14,7 +10,6 @@
 }
 
 .contactButton {
-  margin-right: 6.25rem;
   padding: 0.625rem 1.875rem;
   background: var(--white);
   border-radius: 3.125rem;
@@ -31,10 +26,31 @@
 
 .footerContainer {
   height: 9.75rem;
-  width: 100vw;
+  width: 85.375rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-top: 5.29rem;
 }
+
+.sectionBackground {
+  width: 100vw;
+  background: var(--black-gradient);
+  margin-top: 13rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1300px) {
+  .footerContainer {
+    width: 56.25rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .footerContainer {
+    width: 42.5rem;
+  }
+}
+
