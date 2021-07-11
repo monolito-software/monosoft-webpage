@@ -6,6 +6,7 @@ import services from '../../services.json';
 
 const Services = () => {
   return (
+    <div className={styles.sectionBackground}>
     <section id="services" className={styles.servicesContainer}>
       <h1 className="heading-1">Serviços que prestamos.</h1>
       <p id={styles.description} className="normal-text">
@@ -25,6 +26,7 @@ const Services = () => {
         })}
       </div>
     </section>
+    </div>
   );
 };
 

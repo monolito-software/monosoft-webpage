@@ -3,7 +3,19 @@
 }
 
 .servicesContainer {
+  margin-top: 8rem;
+  height: 67.5rem;
+  width: 85.375rem;
+}
+
+.sectionBackground {
   margin-top: 20rem;
+  background: var(--black-gradient) repeat;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .servicesContainer h1 {
@@ -27,5 +39,29 @@
 
 .servicesCardsContainer p {
   color: var(--gray);
+}
+
+@media (max-width: 1300px) {
+  .servicesContainer {
+    width: 56.25rem;
+    height: 85.375rem;
+  }
+
+  .servicesCardsContainer {
+    grid-template-columns: repeat(3, 2fr);
+  }
+}
+
+@media (max-width: 850px) {
+  .servicesContainer {
+    width: 42.5rem;
+    height: 110rem;
+  }
+
+  .servicesCardsContainer {
+    width: 42.5rem;
+    grid-template-columns: repeat(2, 3fr);
+    place-items: center;
+  }
 }
 
